@@ -67,7 +67,13 @@ LEVELS = {
                 MoveChoice(description='Идти направо', next_location_id='2', next_level_id='middleland'),
                 MoveChoice(description='Идти налево', next_location_id='6_end', next_level_id=START_LEVEL_ID),
             ),
-            pictures=END_PICTURES,
+            pictures=[
+                'https://postimg.cc/xkc9zhFC',
+                'https://postimg.cc/5X94x6B8',
+                'https://postimg.cc/MXRKtkZf',
+                'https://postimg.cc/nCJVPdMR',
+                'https://postimg.cc/ppJVbDF2',
+            ],
         ),
         Location(
             id='4_end',
