@@ -183,7 +183,6 @@ LEVELS = {
                 'https://postimg.cc/8sbH5YSv',
                 'https://postimg.cc/bsB1ScFZ',
                 'https://postimg.cc/5XQLw7Zn',
-                'https://postimg.cc/0zhGFRpT',
                 'https://postimg.cc/CBS8pFdQ',
             ],
         ),
@@ -200,7 +199,7 @@ LEVELS = {
                 MoveChoice(
                     description='Подождать, утро вечера мудренее', next_location_id='5_end', next_level_id=END_LEVEL_ID
                 ),
-                MoveChoice(description='RUUUUUN', next_level_id='1', next_location_id=END_LEVEL_ID),
+                MoveChoice(description='RUUUUUN', next_location_id='1', next_level_id=END_LEVEL_ID),
             ),
             pictures=[
                 'https://postimg.cc/PpC0QkQP',
